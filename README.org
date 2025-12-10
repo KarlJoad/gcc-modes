@@ -1,0 +1,14 @@
+#+TITLE: gcc-modes
+
+A collection of tree-sitter-powered Emacs major-modes for GCC's internal file formats.
+This includes:
+  * Machine Description files (~.md~)
+  * RTL dumps
+  * GIMPLE dumps
+  * ~match.pd~ pattern files
+
+This takes inspiration from [[https://github.com/RegAlloc/gcc-syntax-highlighting][gcc-syntax-highlighting]] for VSCode/VSCodium.
+
+* Dependencies
+  * Emacs >=29.1
+    We use Emacs' built-in treesit library for tree-sitter support, which requires Emacs 29.1 or later.

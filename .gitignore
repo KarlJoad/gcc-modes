@@ -1,0 +1,13 @@
+**.elc
+**.eln
+
+# Editor/Platform stuff
+*~
+*.swp
+.\#*
+
+.vscode
+
+.DS_Store
+.AppleDouble
+.LSOverride
